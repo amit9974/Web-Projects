@@ -114,3 +114,9 @@ def Contact_us(request):
         contact.save()
 
     return render(request, 'app/contact.html')
+
+
+
+# Checkout
+def Checkout(request):
+    return render(request, 'app/checkout.html')
